@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="../CSS/SideNav.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/generalTopLayOut.css">
+    <link rel="stylesheet" href="../CSS/contentElementStyle.css">
+    <link rel="stylesheet" href="../CSS/contentElementStyle2.css">
+    
+    <style>
+     
+    @media (max-width: 768px) { 
+        .p{
+            grid-column: span 8;
+        }
+
+        .t{
+            grid-column: span 8;
+        }
+    } 
+
+    @media (min-width: 769px) { 
+        .p{
+            grid-column: span 4;
+        }
+
+        .t {
+            grid-column: span 4;
+        }
+    }
+
+    </style>
+
+</head>
+<body>
+    
+    <input type="checkbox" id="sideNavState">
+        <nav class="sidebar">
+
+            <div class="sidebarHeader">
+                <div class="headerText">
+
+                JAPAN TRAVEL<br>
+                <small>GUIDE</small>
+                </div>
+            </div>
+
+            <hr class="sideHr">
+
+            <div class="sidebarMainNav">
+            <a class="sidebarMainNavItem" href="../index.html">
+                <p class="sidebarNavIconHome">☖</p>
+                <p class="itemLabel">Home</p>
+                </a>
+
+            <a class="sidebarMainNavItem" href="../Nav/TouristSpot.html">
+                <p class="sidebarNavIcon">⛩</p>
+                <p class="itemLabel">Popular Tourist Spots</p>
+                </a>
+
+            <a class="sidebarMainNavItem" href="../Nav/Campsite.html">
+                <p class="sidebarNavIcon">⛰</p>
+                <p class="itemLabel">Camping Sites</p>
+            </a>
+
+            <a class="sidebarMainNavItem" href="../Nav/SeasonsSpots.html">
+                <p class="sidebarNavIcon">⛇</p>
+                <p class="itemLabel">Seasonal Hotspots</p>
+            </a>
+
+            <a class="sidebarMainNavItem sidebarMainNavCurrent" href="../Nav/AnimePil.html">
+                <p class="sidebarNavIcon">聖</p>
+                <p class="itemLabel">Anime Pilgrimage</p>
+            </a>
+
+            <a class="sidebarMainNavItem" href="../Nav/Omiyage.html">
+                <p class="sidebarNavIcon">❀</p>
+                <p class="itemLabel">Souvenir (Omiyage)</p>
+            </a>
+
+            <a class="sidebarMainNavItem" href="../Nav/Prefectures.html">
+                <p class="sidebarNavIcon">県</p>
+                <p class="itemLabel">Prefecture Hotspots</p>
+            </a>
+
+            </div>
+        
+            <div class="spacer">
+            </div>
+
+            <div class="sidebarSecNav">
+                <a class="sidebarSecNavItem" href="../Nav/FAQ.html">
+                    <p class="sidebarNavIcon">ⓘ</p>
+                    <p class="itemLabel">FAQ</p>
+                </a>
+
+                <hr class="sideHr2">
+
+                <a class="sidebarSecNavItem" href="../Nav/aboutMe.html">
+                    <p class="sidebarNavIcon">🅯</p>
+                    <p class="itemLabel">About Me</p>
+                </a>
+
+                <hr class="sideHr2">
+                
+                <a class="sidebarSecNavItem" href="../Nav/Attributions.html">
+                    <p class="sidebarNavIcon">©</p>
+                    <p class="itemLabel">Attributions</p>
+                </a>
+            </div>
+
+            <label class="toggle" for="sideNavState"></label>
+
+        </nav>
+
+        <div class="content">
+
+            <div class="contentTop">
+                <a href="../Nav/AnimePil.html">
+                <h3 class="subTopText" style="text-decoration: underline;">// ANIME PILGRAMAGE </h3>
+                </a>
+                <h1 class="contentTopText">MONO</h1>
+                <hr>
+
+                <div class="topTextBox o" >
+                    <figure style="grid-column: span 3;display: flex;flex-direction: column;">
+                        <img style="width: 50%;margin-left: auto;margin-right: auto;margin-bottom: 10px;" src="../Image/anime/Mono/Mono_manga_volume_1_cover.jpg" alt="image">
+                        <figcaption>By <a rel="nofollow" class="external autonumber" href="https://ogre.natalie.mu/media/news/comic/2018/1025/mono1obinashi.jpg">[1]</a>, Fair use, <a href="https://en.wikipedia.org/w/index.php?curid=76413489">Link</a></figcaption>
+                    </figure>
+
+                    <div style="grid-column: span 7;display: flex;flex-direction: column;">
+                        <h2 >Mono is a Japanese four-panel manga series written and illustrated by Afro. Set in and around Yamanashi Prefecture, Satsuki Amamiya joins her school's Photography Club along with her best friend An Kiriyama after being inspired by Club President and senior student Makinohara, who she adored. To fulfill their club activities, the club and Haruno explore new places, capture a variety of photos with different kinds of cameras, experience the local cuisine and embark on other endeavours, not strictly related to photography.</h2>
+                        <small style="align-self: flex-end;margin-top: auto;">(Description from <a href="https://en.wikipedia.org/wiki/Mono_(manga)">wikipedia </a>) </small>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="content2">
+            <div class="bottom">
+                
+
+
+                <div class="innerPageContent">
+                    <h3 class="tag" style="clip-path:polygon(0 0,100% 0,96% 100%,0 100%);">Yamanashi Science Center Deck</h3>
+                     <div class="contentBox t">
+                        <figure>
+                        <img src="../Image/anime/Mono/ANWiy9RBmjS7rwVpC073jSeLtXCjg9a9oFw2v8nJmQ5JiZaZQ_wudS07FHIWT4NAAnzuXdXrdfv_-RWptLF-sEOStHF-w1nub5_0Uaa2sA0oyXliOZCw0aMKKx2p6ayhddcgWUAQsj72thYf9BMw4000-h3000-k-no.jpg" alt="image" style="max-width: 100%; height: auto;">
+                        <figcaption>Photo by <a href="https://maps.app.goo.gl/ev57V5j8UyMdeo8T8">Hiorki O</a></figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="contentBox" style="grid-column: span 8">
+
+                        <div class="textArea">
+                        <h3 class="tag">About</h3>
+                        <h2>The Yamanashi Prefectural Science Center Observation Deck, where Satsuki Amamiya and her best friend An Kiriyama, shoot a timelapse of the city night view.</h2>
+
+                        </div>
+
+                        
+                    </div>
+                    <div class="contentBox p">
+
+                        <div class="textArea">
+                        <h3 class="tag">Location</h3>
+                        <iframe class="c" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.217622667942!2d138.5730198768097!3d35.47415907265432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601be7a2323ecfb5%3A0x2a2ae598ec017f6d!2sMotosuko%20Observation%20Park!5e0!3m2!1sen!2smy!4v1794218185478!5m2!1sen!2smy" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                        </div>
+                    </div> 
+
+                    <div class="contentBox p">
+
+                        <div class="textArea">
+                        <h3 class="tag">Google Street View</h3>
+                        <iframe class="c" src="https://www.google.com/maps/embed?pb=!4v1794233199601!6m8!1m7!1sCAoSHENJQUJJaEJwalRDNGpWcXhxSE5TTFhLdTBxSjA.!2m2!1d35.66882769361457!2d138.5807670803848!3f148.93008528093392!4f-3.6738670721966145!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="contentBox p">
+                        
+                        <div class="textArea">
+                        <h3 class="tag">Scene From The Anime</h3>
+                        </div>
+
+                        <figure>
+                        <a href="../Image/anime/Mono/ab778b67-943a-4375-8725-2e2352ca4003.webp" target="_blank">
+                        <img src="../Image/anime/Mono/ab778b67-943a-4375-8725-2e2352ca4003.webp" alt="image"></a>
+                        <figcaption>Scene Taken from EP1<br>©あfろ／芳文社・アニプレックス・ソワネ</figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+
+                <hr>
+                <br>
+
+
+
+
+
+
+
+
+                <div class="innerPageContent">
+                    <h3 class="tag" style="clip-path:polygon(0 0,100% 0,96% 100%,0 100%);">Hachibuse mountain belvedere</h3>
+                     <div class="contentBox t">
+                        <figure>
+                        <img src="../Image/anime/Mono/QwRY54Li1HMwD7oNfpoPdkTDTiaxgKrRJUmh2w5iMk.webp" alt="image" style="max-width: 100%; height: auto;">
+                        <figcaption>Photo by <a href="https://maps.app.goo.gl/saXxs6H78L2BEaYF6">Falcon T</a></figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="contentBox" style="grid-column: span 8">
+
+                        <div class="textArea">
+                        <h3 class="tag">About</h3>
+                        <h2>Hachibuse mountain belvedere, appeared in the anime EP3, where the group went hiking at Mt Hachibuse. Stunning view at the right timing.</h2>
+
+                        </div>
+
+                        
+                    </div>
+                    <div class="contentBox p">
+
+                        <div class="textArea">
+                        <h3 class="tag">Location</h3>
+                        <iframe class="c" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12884.575898165345!2d138.0489595771587!3d36.16305095896794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601d07130c409ed1%3A0x6f81113639dd390c!2sHachibuse%20mountain%20belvedere!5e0!3m2!1sen!2smy!4v1794221194940!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="contentBox p">
+
+                        <div class="textArea">
+                        <h3 class="tag">Google Street View</h3>
+                        <iframe class="c" src="https://www.google.com/maps/embed?pb=!4v1794221617230!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQ1g4TG5UMkFF!2m2!1d36.16225881614965!2d138.0580120041739!3f331.751883355184!4f-23.45527242279647!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="contentBox p">
+                        <div class="textArea">
+                        <h3 class="tag">Scene From The Anime</h3>
+                        </div>
+
+                        <figure>
+                        <a href="../Image/anime/Mono/0a5d0ce0-fdc1-438d-9899-08630b93c443.webp" target="_blank">
+                        <img src="../Image/anime/Mono/0a5d0ce0-fdc1-438d-9899-08630b93c443.webp" alt="image"></a>
+                        <figcaption>Scene Taken from EP3<br>©あfろ／芳文社・アニプレックス・ソワネ</figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>

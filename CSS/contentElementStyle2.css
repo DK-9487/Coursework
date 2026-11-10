@@ -1,0 +1,159 @@
+
+.innerPageContent {
+
+
+    flex: 2 1 22rem;
+    display: grid;
+    grid-auto-rows: min-content;
+    grid-column-gap: 25px;
+    grid-row-gap: 20px;
+    align-content:center;
+    padding: 20px;
+    background-color: #222222; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    .cardImg {
+        width: 100%;
+        flex: 0 0 9rem;
+        background: url(../Image/su-san-lee-E_eWwM29wfU-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        mask-image: linear-gradient(to top, transparent, #000 50%);
+    }
+
+    .contentBox {
+        
+        display: grid;
+        padding: 20px;
+        padding-bottom: 10px;
+        color: white;
+        background-color: rgb(44,44,44);
+        border-radius: 10px;
+        margin-bottom: 0px;
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-rows: auto 1fr;
+
+        figure {
+            margin-bottom: 10px;
+        }
+
+        img {
+            width:100%;
+            padding: 5px;
+        }
+
+        
+
+        a {
+            text-decoration: none;
+            color: aqua;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+        }
+
+        
+    }
+
+    
+
+    .textArea {
+        display: flex;
+        flex-direction: column;
+        
+        .k {
+            margin-bottom: 20px;
+        }
+
+        .tag {
+            margin-top: 0px;
+            margin-bottom: 20px;
+        }
+
+        a {
+            margin-top: auto;
+            align-self: center;
+        }
+    }
+
+
+}
+
+    @media (max-width: 768px) {
+        .innerPageContent {
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+
+            .tag {
+                margin-top: 0px;
+                margin-bottom: 20px;
+                align-self: center;
+                clip-path:polygon(0 0,100% 0,100% 100%,0 100%);
+                padding-right: 10px;
+            }
+        }
+
+        
+            .o {
+                grid-template-columns: repeat(1, 1fr);
+                display: grid; 
+                grid-auto-columns: auto;
+            }
+
+        
+    }
+
+    @media (min-width: 769px) {
+        .innerPageContent {
+            grid-template-columns: repeat(12, minmax(0, 1fr));
+        }
+
+        .o{
+            grid-template-columns: repeat(10, 1fr);
+            display: grid; 
+            grid-auto-columns: auto;
+            column-gap: 20px;
+        }
+        
+
+        
+    }
+
+.links {
+
+    a {
+    text-decoration: none;
+    font-size: 1rem;
+    overflow-wrap: anywhere;
+    }
+}
+
+iframe{
+            border:0; 
+            width:100%;
+            margin-top: 20px;
+}
+
+.content2{
+
+        .spacer {
+        background-color: transparent;
+    }
+
+        .c {
+            margin-top:5px;
+            height: 220px;
+        }
+
+        hr {
+        margin: 0 auto; 
+        height: 1px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        background-color: #525252;
+        border: none;
+        width: 100%;
+    }
+}
