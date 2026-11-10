@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="../CSS/SideNav.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/generalTopLayOut.css">
+    <link rel="stylesheet" href="../CSS/contentElementStyle.css">
+    <link rel="stylesheet" href="../CSS/contentElementStyle2.css">
+
+    <style>
+     
+    @media (max-width: 768px) { 
+        .p{
+            grid-column: span 8;
+        }
+    } 
+
+    @media (min-width: 769px) { 
+        .p{
+            grid-column: span 4;
+        }
+    }
+
+    iframe{
+        border:0; 
+        margin-top: 20px; 
+        width:100%
+    }
+
+    </style>
+</head>
+<body>
+    
+    <input type="checkbox" id="sideNavState">
+        <nav class="sidebar">
+
+            <div class="sidebarHeader">
+                <div class="headerText">
+
+                JAPAN TRAVEL<br>
+                <small>GUIDE</small>
+                </div>
+            </div>
+
+            <hr class="sideHr">
+
+            <div class="sidebarMainNav">
+            <a class="sidebarMainNavItem" href="../index.html">
+                <p class="sidebarNavIconHome">☖</p>
+                <p class="itemLabel">Home</p>
+                </a>
+
+            <a class="sidebarMainNavItem" href="../Nav/TouristSpot.html">
+                <p class="sidebarNavIcon">⛩</p>
+                <p class="itemLabel">Popular Tourist Spots</p>
+                </a>
+
+            <a class="sidebarMainNavItem" href="../Nav/Campsite.html">
+                <p class="sidebarNavIcon">⛰</p>
+                <p class="itemLabel">Camping Sites</p>
+            </a>
+
+            <a class="sidebarMainNavItem" href="../Nav/SeasonsSpots.html">
+                <p class="sidebarNavIcon">⛇</p>
+                <p class="itemLabel">Seasonal Hotspots</p>
+            </a>
+
+            <a class="sidebarMainNavItem" href="../Nav/AnimePil.html">
+                <p class="sidebarNavIcon">聖</p>
+                <p class="itemLabel">Anime Pilgrimage</p>
+            </a>
+
+            <a class="sidebarMainNavItem" href="../Nav/Omiyage.html">
+                <p class="sidebarNavIcon">❀</p>
+                <p class="itemLabel">Souvenir (Omiyage)</p>
+            </a>
+
+            <a class="sidebarMainNavItem" href="../Nav/Prefectures.html">
+                <p class="sidebarNavIcon">県</p>
+                <p class="itemLabel">Prefecture Hotspots</p>
+            </a>
+
+            </div>
+        
+            <div class="spacer">
+            </div>
+
+            <div class="sidebarSecNav">
+                <a class="sidebarSecNavItem" href="../Nav/FAQ.html">
+                    <p class="sidebarNavIcon">ⓘ</p>
+                    <p class="itemLabel">FAQ</p>
+                </a>
+
+                <hr class="sideHr2">
+
+                <a class="sidebarSecNavItem" href="../Nav/aboutMe.html">
+                    <p class="sidebarNavIcon">🅯</p>
+                    <p class="itemLabel">About Me</p>
+                </a>
+
+                <hr class="sideHr2">
+                
+                <a class="sidebarSecNavItem" href="../Nav/Attributions.html">
+                    <p class="sidebarNavIcon">©</p>
+                    <p class="itemLabel">Attributions</p>
+                </a>
+            </div>
+
+            <label class="toggle" for="sideNavState"></label>
+
+        </nav>
+
+        <div class="content">
+
+            <div class="contentTop">
+                <a href="../Nav/Campsite.html">
+                    <h3 class="subTopText" style="text-decoration: underline;">// CAMPING SITES </h3>
+                </a>
+                <h1 class="contentTopText">Jinbagatayama Camping Site</h1>
+
+            </div>
+        
+        </div>
+
+        <div class="content2">
+
+            <div class="bottom">
+
+                <div class="innerPageContent" >
+                     <div class="contentBox" style="grid-column: span 8;grid-row: span 4;">
+                        <figure>
+                        <img src="../Image/campsite/jinbagatayama/8FDXYya.jpeg">
+                        <figcaption>By user u/peaceshot  on <a href="https://www.reddit.com/r/anime/comments/9pjopn/i_went_to_the_yuru_camp_locations_in_real_life/">reddit</a> through <a href="https://imgur.com/a/ghmgKII">imgur</a></figcaption>
+                        </figure>
+
+                        <div class="textArea">
+                        <h3 class="tag">About</h3>
+                        <h2 class="k">Mount Jinbagata (陣馬形山, Jinbagatayama) is a 1,445-meter-high mountain located in Nakagawa Village, Nagano Prefecture, Japan. Affectionately known as the "Campsite in the Sky".</h2>
+                        
+                        <h3 class="tag">Additonal Info</h3>
+                        <h2 class="k">The mountain's name (literally meaning "Battle-Field Shape Mountain") dates back to the Sengoku (Warring States) period, when its peak served as a vital watchtower and beacon-fire (noroshi) communication hub for the warlord Takeda Shingen.</h2>
+                        
+                        
+                        
+                        
+                        <h3 class="tag">Related Link</h3>
+                        <h2 class="links" style="margin-bottom: 15px;">Jinbagatayama Campgrounds Official Websites <br> <a href="https://jinbagata.jp/camp/">(https://jinbagata.jp/camp/)</a></h2>
+                        
+
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="contentBox p">
+
+                        <div class="textArea">
+                        <h3 class="tag">Location</h3>
+                        
+                        
+                        <iframe class="c" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.174705392624!2d137.98312529999998!3d35.6727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601c8ea186b13429%3A0x533d660ac442c67b!2sJinbagatayama%20Campground!5e0!3m2!1sen!2smy!4v1794278415348!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                        </div>
+                    </div> 
+
+                    <div class="contentBox p">
+                        
+                        <div class="textArea">
+                        <h3 class="tag">Gallery</h3>
+                        </div>
+
+                        <figure>
+                        <a href="../Image/campsite/jinbagatayama/IVsJne3.jpeg" target="_blank">
+                        <img src="../Image/campsite/jinbagatayama/IVsJne3.jpeg  " alt="image"></a>
+                        <figcaption>The camping grounds<br>By user u/peaceshot  on <a href="https://www.reddit.com/r/anime/comments/9pjopn/i_went_to_the_yuru_camp_locations_in_real_life/">reddit</a> through <a href="https://imgur.com/a/ghmgKII">imgur</a></figcaption>
+                        </figure>
+
+                        <figure>
+                        <a href="../Image/campsite/jinbagatayama/f4J9WAg.jpeg" target="_blank">
+                        <img src="../Image/campsite/jinbagatayama/f4J9WAg.jpeg" alt="image"></a>
+                        <figcaption>Night view of Nagano City from Jinbagatayama Camping Grounds <br>By user u/peaceshot  on <a href="https://www.reddit.com/r/anime/comments/9pjopn/i_went_to_the_yuru_camp_locations_in_real_life/">reddit</a> through <a href="https://imgur.com/a/ghmgKII">imgur</a></figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="contentBox p spacer">
+
+                    </div>
+
+                    
+                </div>
+                
+
+        </div>  
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+        .featuredText {
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 12rem;
+        }
+
+        body {
+            background-color: rgb(24, 24, 24);
+            background-size: cover;
+            background-repeat:no-repeat;
+            background-attachment: fixed;
+        }
+
+        .Top {
+            margin: 15px;
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 15px;
+        }
+
+        .content {
+            border-bottom: solid wheat 1px; padding-bottom: 1.5rem;
+        }
+        
+
+        @media (max-width:70rem) {
+            .content {
+                height: auto;
+                padding: 1rem;
+                padding-left: 5rem;
+                transition: .3s;
+                background-size: cover;
+                background-repeat:no-repeat; 
+                background-image: url(../Image/contourBackground.svg);
+            }
+
+            .content2 {
+                padding-left: 4.5rem;
+                background-color: rgb(24, 24, 24);
+                border-top: 2px solid wheat;
+                height: auto;
+                transition: .3s;
+                
+            }
+
+            .bottom {
+                padding: 0rem;
+                
+            }
+
+            .contentArea{
+                margin-bottom: 0px;
+                /* background-color: rgb(34, 34, 34); */
+                border-radius: 15px;
+                /* box-shadow: 0 0 1000px rgb(34, 34, 34); */
+                padding: 10px;
+                padding-bottom: 1.5rem;
+            }
+        }
+
+        @media (min-width:70rem) {
+
+            .content {
+                height: auto;
+                padding: 2.5rem;
+                padding-bottom: 1.2rem;
+                padding-left: 7rem;
+                transition: .3s;
+                background-size: cover;
+                background-repeat:no-repeat; 
+                background-image: url(../Image/contourBackground.svg);
+            }
+
+            .content2 {
+                padding-left: 4.5rem;
+                background-color: rgb(24, 24, 24);
+                border-top: 2px solid wheat;
+                height: auto;
+                transition: .3s;
+            }
+
+            .bottom {
+                padding: 1.5rem;
+            }
+
+            .contentArea{
+                margin-bottom: 0px;
+                /* background-color: rgb(34, 34, 34); */
+                border-radius: 15px;
+                /* box-shadow: 0 0 1000px rgb(34, 34, 34); */
+                padding: 10px;
+                padding-bottom: 1.5rem;
+            }
+        }

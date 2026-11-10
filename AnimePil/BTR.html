@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="../CSS/SideNav.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/generalTopLayOut.css">
+    <link rel="stylesheet" href="../CSS/contentElementStyle.css">
+    <link rel="stylesheet" href="../CSS/contentElementStyle2.css">
+    
+    <style>
+     
+    @media (max-width: 768px) { 
+        .p{
+            grid-column: span 8;
+        }
+
+        .t{
+            grid-column: span 8;
+        }
+    } 
+
+    @media (min-width: 769px) { 
+        .p{
+            grid-column: span 4;
+        }
+
+        .t {
+            grid-column: span 4;
+        }
+    }
+
+    </style>
+
+</head>
+<body>
+    
+    <input type="checkbox" id="sideNavState">
+        <nav class="sidebar">
+
+            <div class="sidebarHeader">
+                <div class="headerText">
+
+                JAPAN TRAVEL<br>
+                <small>GUIDE</small>
+                </div>
+            </div>
+
+            <hr class="sideHr">
+
+            <div class="sidebarMainNav">
+            <a class="sidebarMainNavItem" href="../index.html">
+                <p class="sidebarNavIconHome">☖</p>
+                <p class="itemLabel">Home</p>
+                </a>
+
+            <a class="sidebarMainNavItem" href="../Nav/TouristSpot.html">
+                <p class="sidebarNavIcon">⛩</p>
+                <p class="itemLabel">Popular Tourist Spots</p>
+                </a>
+
+            <a class="sidebarMainNavItem" href="../Nav/Campsite.html">
+                <p class="sidebarNavIcon">⛰</p>
+                <p class="itemLabel">Camping Sites</p>
+            </a>
+
+            <a class="sidebarMainNavItem" href="../Nav/SeasonsSpots.html">
+                <p class="sidebarNavIcon">⛇</p>
+                <p class="itemLabel">Seasonal Hotspots</p>
+            </a>
+
+            <a class="sidebarMainNavItem sidebarMainNavCurrent" href="../Nav/AnimePil.html">
+                <p class="sidebarNavIcon">聖</p>
+                <p class="itemLabel">Anime Pilgrimage</p>
+            </a>
+
+            <a class="sidebarMainNavItem" href="../Nav/Omiyage.html">
+                <p class="sidebarNavIcon">❀</p>
+                <p class="itemLabel">Souvenir (Omiyage)</p>
+            </a>
+
+            <a class="sidebarMainNavItem" href="../Nav/Prefectures.html">
+                <p class="sidebarNavIcon">県</p>
+                <p class="itemLabel">Prefecture Hotspots</p>
+            </a>
+
+            </div>
+        
+            <div class="spacer">
+            </div>
+
+            <div class="sidebarSecNav">
+                <a class="sidebarSecNavItem" href="../Nav/FAQ.html">
+                    <p class="sidebarNavIcon">ⓘ</p>
+                    <p class="itemLabel">FAQ</p>
+                </a>
+
+                <hr class="sideHr2">
+
+                <a class="sidebarSecNavItem" href="../Nav/aboutMe.html">
+                    <p class="sidebarNavIcon">🅯</p>
+                    <p class="itemLabel">About Me</p>
+                </a>
+
+                <hr class="sideHr2">
+                
+                <a class="sidebarSecNavItem" href="../Nav/Attributions.html">
+                    <p class="sidebarNavIcon">©</p>
+                    <p class="itemLabel">Attributions</p>
+                </a>
+            </div>
+
+            <label class="toggle" for="sideNavState"></label>
+
+        </nav>
+
+        <div class="content">
+
+            <div class="contentTop">
+
+                <a href="../Nav/AnimePil.html">
+                <h3 class="subTopText" style="text-decoration: underline;">// ANIME PILGRAMAGE </h3>
+                </a>
+
+                <h1 class="contentTopText">BOCCHI THE ROCK</h1>
+                <hr>
+
+                <div class="topTextBox o">
+                    <figure style="grid-column: span 3;display: flex;flex-direction: column;">
+                        <img style="height: 100%;margin-left: auto;margin-right: auto;margin-bottom: 10px;" src="../Image/anime/BTR/Bocchi_the_Rock_vol.1.jpg" alt="image">
+                        <figcaption>作者 はまじあき・芳文社 - <a rel="nofollow" class="external free" href="http://www.dokidokivisual.com/comics/book/index.php?cid=1492">link</a>，fair use，<a href="https://zh.wikipedia.org/w/index.php?curid=7387569">link</a></figcaption>
+                    </figure>
+
+                    <div style="grid-column: span 7;display: flex;flex-direction: column;">
+                        <h2 >Bocchi the Rock! (Japanese: ぼっち・ざ・ろっく！, Hepburn: Botchi Za Rokku!) is a Japanese four-panel manga series written and illustrated by Aki Hamazi. Hitori Gotō, called Bocchi-chan by her bandmates, is extremely anxious and socially awkward. She longs to start a band in spite of her struggles to fulfill her desires to become popular. She is suddenly given a chance to do so after she is taken in by another girl, Nijika Ijichi, to become a member of her newly formed Kessoku Band.</h2>
+                        <small style="align-self: flex-end;margin-top: auto;">(Description from <a href="https://en.wikipedia.org/wiki/Bocchi_the_Rock!">wikipedia </a>) </small>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="content2">
+
+            <div class="bottom">
+
+
+
+
+
+
+                <div class="innerPageContent">
+                    <h3 class="tag">SHELTER Live House</h3>
+                     <div class="contentBox t">
+                        <figure>
+                        <img src="../Image/anime/BTR/SHELTER.jpg" alt="image" style="max-width: 100%; height: auto;">
+                        <figcaption>By <a href="//commons.wikimedia.org/wiki/User:Syced" title="User:Syced">Syced</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" title="Creative Commons Zero, Public Domain Dedication">CC0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=123364299">Link</a></figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="contentBox" style="grid-column: span 8">
+
+                        <div class="textArea">
+                        <h3 class="tag">About</h3>
+                        <h2>SHELTER, a live house in Shimokitazawa, Setagaya ward, Tokyo. Which are the reference for the STARRY live house in the anime. <br><br> STARRY is a live house (based off the SHELTER live house) in Shimokitazawa, Setagaya ward, Tokyo handled by Seika Ijichi and her friend, PA-san. Kessoku Band made their band activity base as well as the second home of Nijika Ijichi due to her commitments to her sister and her band.</h2>
+
+                        </div>
+
+                        
+                    </div>
+                    <div class="contentBox p">
+
+                        <div class="textArea">
+                        <h3 class="tag">Location</h3>
+                        <iframe class="c" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202.60170831992667!2d139.66906578013237!3d35.661552278405686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f36a1800c2b1%3A0x8441942493bd853a!2sShelter%20Shimokitazawa!5e0!3m2!1sen!2smy!4v1794214572433!5m2!1sen!2smy"  allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                        </div>
+                    </div> 
+
+                    <div class="contentBox p">
+
+                        <div class="textArea">
+                        <h3 class="tag">Google Street View</h3>
+                        <iframe class="c" src="https://www.google.com/maps/embed?pb=!4v1794216290740!6m8!1m7!1sD23wqXh7QPYoo7E1MPPvBA!2m2!1d35.66153698079084!2d139.6695164065194!3f286.5477352298601!4f-36.774999100927715!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="contentBox p">
+                        
+                        <div class="textArea">
+                        <h3 class="tag">Scene From The Anime</h3>
+                        </div>
+
+                        <figure>
+                        <a href="../Image/anime/BTR/source.png" target="_blank">
+                        <img src="../Image/anime/BTR/source.png" alt="image"></a>
+                        <figcaption>Scene Taken from EP1<br>©はまじあき／芳文社・アニプレックス</figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+
+                <hr>
+                <br>
+
+
+
+
+
+
+
+
+                <div class="innerPageContent">
+                    <h3 class="tag">Shimokitazawa Tree Mural</h3>
+                     <div class="contentBox t">
+                        <figure>
+                        <img src="../Image/anime/BTR/the-tree-mural-in-shimokitazawa-has-been-fully-closed-off-v0-0w9igda70meh1.webp" alt="image" style="max-width: 100%; height: auto;">
+                        <figcaption>By user u/superp2222 on <a href="https://www.reddit.com/r/BocchiTheRock/s/x9UGT7QXpV">reddit</a></figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="contentBox" style="grid-column: span 8">
+
+                        <div class="textArea">
+                        <h3 class="tag">About</h3>
+                        <h2>The Shimokitazawa Tree Mural, where the member of Kessoku Band take their group photo in EP4. <br><br>It has since been been fully closed off to public, preparing for the building demolition, a few months ago.</h2>
+
+                        </div>
+
+                        
+                    </div>
+                    <div class="contentBox p">
+
+                        <div class="textArea">
+                        <h3 class="tag">Location</h3>
+                        <iframe class="c" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d787.3337907234844!2d139.66631662897746!3d35.66179274399205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f300357b126b%3A0xa0bdb59337ebeb61!2sShimokitazawa%20tree%20mural!5e0!3m2!1sen!2smy!4v1794215482752!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="contentBox p">
+
+                        <div class="textArea">
+                        <h3 class="tag">Google Street View</h3>
+                        <iframe class="c" src="https://www.google.com/maps/embed?pb=!4v1794216030516!6m8!1m7!1s6bNh34sUDzZXDpkjVo7hIQ!2m2!1d35.66269470749135!2d139.669150343349!3f185.19508403069227!4f-4.115668598247396!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="contentBox p">
+                        <div class="textArea">
+                        <h3 class="tag">Scene From The Anime</h3>
+                        </div>
+
+                        <figure>
+                        <a href="../Image/anime/BTR/f828fd07-618a-463a-a101-8f30fcc5a381.webp" target="_blank">
+                        <img src="../Image/anime/BTR/f828fd07-618a-463a-a101-8f30fcc5a381.webp" alt="image"></a>
+                        <figcaption>Scene Taken from EP4<br>©はまじあき／芳文社・アニプレックス</figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+
+
+            </div>   
+
+        </div>
+
+</body>
+</html>
